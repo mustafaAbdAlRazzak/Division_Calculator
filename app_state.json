@@ -1,0 +1,12 @@
+{
+  "equipment": [],
+  "templates": [],
+  "orders": [],
+  "modifiers": {
+    "base_military_factory_output": 1.0,
+    "factory_efficiency": 1.0,
+    "land_production_bonus": 0.0,
+    "base_dockyard_output": 2.5,
+    "naval_production_bonus": 0.0
+  }
+}

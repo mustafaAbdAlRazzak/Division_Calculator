@@ -1,0 +1,151 @@
+{
+  "equipment": [
+    {
+      "id": "4eab1449-b870-46dc-9098-645b5d3d8a9a",
+      "name": "IE",
+      "category": "LAND",
+      "base_production_cost": 0.5
+    },
+    {
+      "id": "abd88dd8-3b66-481d-8e61-d925fd7942f1",
+      "name": "SE",
+      "category": "LAND",
+      "base_production_cost": 4.0
+    },
+    {
+      "id": "4ad9a95f-bb07-4c59-9a53-f8b3b041a5d3",
+      "name": "A",
+      "category": "LAND",
+      "base_production_cost": 3.5
+    },
+    {
+      "id": "555b0516-2014-4a24-b879-a096bcde1d78",
+      "name": "FP1",
+      "category": "LAND",
+      "base_production_cost": 26.0
+    }
+  ],
+  "templates": [
+    {
+      "name": "ID",
+      "type": "LAND_DIVISION",
+      "items": [
+        {
+          "equipment": {
+            "id": "abd88dd8-3b66-481d-8e61-d925fd7942f1",
+            "name": "SE",
+            "category": "LAND",
+            "base_production_cost": 4.0
+          },
+          "count_per_unit": 30.0
+        },
+        {
+          "equipment": {
+            "id": "4eab1449-b870-46dc-9098-645b5d3d8a9a",
+            "name": "IE",
+            "category": "LAND",
+            "base_production_cost": 0.5
+          },
+          "count_per_unit": 910.0
+        },
+        {
+          "equipment": {
+            "id": "4ad9a95f-bb07-4c59-9a53-f8b3b041a5d3",
+            "name": "A",
+            "category": "LAND",
+            "base_production_cost": 3.5
+          },
+          "count_per_unit": 12.0
+        }
+      ]
+    },
+    {
+      "name": "FPT",
+      "type": "LAND_DIVISION",
+      "items": [
+        {
+          "equipment": {
+            "id": "555b0516-2014-4a24-b879-a096bcde1d78",
+            "name": "FP1",
+            "category": "LAND",
+            "base_production_cost": 26.0
+          },
+          "count_per_unit": 1.0
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "O1",
+      "template": {
+        "name": "ID",
+        "type": "LAND_DIVISION",
+        "items": [
+          {
+            "equipment": {
+              "id": "abd88dd8-3b66-481d-8e61-d925fd7942f1",
+              "name": "SE",
+              "category": "LAND",
+              "base_production_cost": 4.0
+            },
+            "count_per_unit": 30.0
+          },
+          {
+            "equipment": {
+              "id": "4eab1449-b870-46dc-9098-645b5d3d8a9a",
+              "name": "IE",
+              "category": "LAND",
+              "base_production_cost": 0.5
+            },
+            "count_per_unit": 910.0
+          },
+          {
+            "equipment": {
+              "id": "4ad9a95f-bb07-4c59-9a53-f8b3b041a5d3",
+              "name": "A",
+              "category": "LAND",
+              "base_production_cost": 3.5
+            },
+            "count_per_unit": 12.0
+          }
+        ]
+      },
+      "rate": {
+        "value": 1.0,
+        "unit": "MONTHLY"
+      },
+      "is_active": true
+    },
+    {
+      "id": "O2",
+      "template": {
+        "name": "FPT",
+        "type": "LAND_DIVISION",
+        "items": [
+          {
+            "equipment": {
+              "id": "555b0516-2014-4a24-b879-a096bcde1d78",
+              "name": "FP1",
+              "category": "LAND",
+              "base_production_cost": 26.0
+            },
+            "count_per_unit": 1.0
+          }
+        ]
+      },
+      "rate": {
+        "value": 5.0,
+        "unit": "WEEKLY"
+      },
+      "is_active": true
+    }
+  ],
+  "modifiers": {
+    "base_military_factory_output": 4.5,
+    "factory_efficiency": 0.6,
+    "land_production_bonus": 0.26,
+    "base_dockyard_output": 2.5,
+    "naval_production_bonus": 0.0
+  }
+}
