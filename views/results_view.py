@@ -2,7 +2,7 @@ from typing import Any, Dict
 import flet as ft
 
 
-class ResultsView(ft.UserControl):
+class ResultsView(ft.Control):
     """لوحة عرض النتائج والإحصائيات مهيأة لشاشات الهواتف الذكية (وضع طولي) باستخدام مكتبة Flet[cite: 5]."""
 
     def __init__(self):

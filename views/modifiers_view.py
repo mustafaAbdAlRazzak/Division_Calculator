@@ -3,7 +3,7 @@ import flet as ft
 from entities.production_modifiers import ProductionModifiers
 
 
-class ModifiersView(ft.UserControl):
+class ModifiersView(ft.Control):
     """لوحة معاملات الإنتاج مهيأة لشاشات الهواتف الذكية (وضع طولي) باستخدام مكتبة Flet."""
 
     def __init__(

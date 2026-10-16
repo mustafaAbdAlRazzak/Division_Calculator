@@ -3,7 +3,7 @@ import flet as ft
 from entities.equipment import Equipment
 
 
-class EquipmentView(ft.UserControl):
+class EquipmentView(ft.Control):
     """مكون إدارة المعدات مصمم خصيصاً لشاشات الهواتف الذكية (وضع طولي) باستخدام مكتبة Flet."""
 
     def __init__(

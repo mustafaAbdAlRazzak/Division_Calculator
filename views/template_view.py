@@ -6,7 +6,7 @@ from entities.equipment import Equipment
 from entities.template_item import TemplateItem
 
 
-class TemplateView(ft.UserControl):
+class TemplateView(ft.Control):
     """لوحة بناء وإدارة نماذج التصميم مهيأة لشاشات الهواتف الذكية (وضع طولي) باستخدام مكتبة Flet[cite: 7]."""
 
     def __init__(

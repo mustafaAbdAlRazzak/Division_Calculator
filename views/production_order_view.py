@@ -6,7 +6,7 @@ from entities.production_order import ProductionOrder
 from entities.production_rate import ProductionRate
 
 
-class ProductionOrderView(ft.UserControl):
+class ProductionOrderView(ft.Control):
     """لوحة أوامر الإنتاج مهيأة لشاشات الهواتف الذكية (وضع طولي) باستخدام مكتبة Flet[cite: 4]."""
 
     def __init__(
