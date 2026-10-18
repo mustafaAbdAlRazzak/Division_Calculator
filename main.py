@@ -213,7 +213,4 @@ def main(page: ft.Page):
 
     # تنفيذ التحميل التلقائي عند بدء التشغيل[cite: 8]
     auto_load_data()
-
-
-if __name__ == "__main__":
-    ft.app(target=main)
+    
